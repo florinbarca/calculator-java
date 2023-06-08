@@ -18,16 +18,17 @@ Acest lucru necesită o monitorizare atentă, ceea ce face codul dificil de în�
 Complexitatea cognitivă a metodei „Calculate” este de asemenea ridicata
 Există mai multe blocuri if-else folosite pentru a determina ordinea în care sunt efectuate operațiile, ceea ce poate crește și mai mult complexitatea cognitivă a metodei.
 
-Mediul de dezvoltare IntelliJ IDEA a semnalat următoarele erori înainte de a rula codul, în Calculator.java:
-Fișier - numarul liniei de cod 4 - obserrvatie: clasa „IdentifCalculator” nu este niciodată folosită
-Fișier - numarul liniei de cod 13 - observatie: nu se poate rezolva simbolul „sau”
-Fișier - numarul liniei de cod 24 - observatie: metoda „Run(java.lang.String)” nu este niciodată folosită
-Fișier - numarul liniei de cod 53 - observatie: bucla „for” poate fi înlocuită cu „for” îmbunătățită
-Fișier - numarul liniei de cod 70 - observatie: variabila locală „textResult” este redundantă
-Fișier: numarul liniei de cod 87 - observatie: partea comună poate fi extrasă din „if” ,Calculate(numbers, operations),deoarece nu afectează executarea condiţiei în sine
-Fișier: numarul liniei de cod 138 - observatie: partea comună poate fi extrasă din „if” ,Calculate(numbers, operations),deoarece nu afectează executarea condiţiei în sine
-Fișier: numarul liniei de cod 183 - observatie: „return” este inutilă ca ultima declarație dintr-o metodă „void”.
+**Mediul de dezvoltare IntelliJ IDEA a semnalat următoarele erori înainte de a rula codul, în Calculator.java:**
 
+Fișier: Calculator.java - numarul liniei de cod: 4 - obserrvatie: clasa „IdentifCalculator” nu este niciodată folosită
+Fișier: Calculator.java - numarul liniei de cod: 13 - observatie: nu se poate rezolva simbolul „sau”
+Fișier: Calculator.java - numarul liniei de cod: 24 - observatie: metoda „Run(java.lang.String)” nu este niciodată folosită
+Fișier: Calculator.java - numarul liniei de cod: 53 - observatie: bucla „for” poate fi înlocuită cu „for” îmbunătățită
+Fișier: Calculator.java - numarul liniei de cod: 70 - observatie: variabila locală „textResult” este redundantă
+Fișier: Calculator.java - numarul liniei de cod: 87 - observatie: partea comună poate fi extrasă din „if” ,Calculate(numbers, operations),deoarece nu afectează executarea condiţiei în sine
+Fișier: Calculator.java - numarul liniei de cod: 138 - observatie: partea comună poate fi extrasă din „if” ,Calculate(numbers, operations),deoarece nu afectează executarea condiţiei în sine
+Fișier:Calculator.java - numarul liniei de cod: 183 - observatie: „return” este inutilă ca ultima declarație dintr-o metodă „void”.
+Fișier: Start.java - numărul liniei de cod: 19 - obseravtie: nu se poate rezolva simbolul „Calculator”
 
 
 
